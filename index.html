@@ -3,9 +3,59 @@
 <head>
 	<meta charset="utf-8">
 	<title>My first website</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Staatliches&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+	body {
+		background-color: #ffe6cc;
+	}
+	h1{
+		color: rgb(255, 67, 0);
+		font-size: 50px;
+		text-align: right;
+		font-family: 'Staatliches', cursive;
+		border: 3px maroon dotted;
+	}
+
+	h2{
+		color: rgb(255, 0, 255);
+		font-size: 30px;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		}
+	h3{
+		text-decoration: line-through;
+		font-size: 24px;
+
+	}
+	p{
+		text-align: justify;
+		font-family: 'Playfair Display', serif;
+	}
+	th, td {
+		border: lightgrey 1px solid;
+		padding: 8px;
+	}
+	th{
+	background-color: rgb(108, 173, 78);
+		color: white;
+	}
+	tr:nth-child(odd) {
+		background-color: rgb(255, 255, 255);
+	}
+	tr:nth-child(even) {
+		background-color: rgb(233, 233, 233);
+	}
+	table {
+		border-collapse: collapse;
+			}
+	</style>
 </head>
 <body>
-<h1>Hello World</h1>
+<h1>Hello World </h1>
 <h2>This is subheading 2</h2>
 <h3>This is subheading 3</h3>
 <h4>This is subheading 4</h4>
@@ -43,5 +93,30 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>This is the second item</li>
 	<li>This is the third item</li>
 </ol>
+<hr>
+<h2>Table</h2>
+
+<table>
+	<tr>
+		<th width="200px">Name</th>
+		<th width="100px">Email</th>
+		<th width="200px">Phone Number</th>
+	</tr>
+	<tr>
+		<td>Wan</td>
+		<td>wan@gmail.com</td>
+		<td>0159563923</td>
+	</tr>
+	<tr>
+		<td>James</td>
+		<td>james@gmail.com</td>
+		<td>0135999312</td>
+	</tr>
+	<tr>
+		<td>Aiman</td>
+		<td>aiman@gmail.com</td>
+		<td>0169351533</td>
+	</tr>
+</table>
 </body>
 </html>
